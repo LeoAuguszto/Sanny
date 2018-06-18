@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
 .corpo {
   margin: 0;
   padding: 0; 
@@ -6,7 +7,8 @@
 
 .cabecalho {
   font-family: 'Bree Serif', serif;
-  background-color: #F7BE81; }
+  background-color: #FE9A2E; 
+}
 
 .tam-texto-1 {
   font-size: 45px; }
@@ -121,8 +123,19 @@
   color: black; }
 
 .mail:hover {
+  color: #F7BE81;
+  text-decoration: none; }
+
+.mail1 {
+  color: black; }
+
+.mail1:hover {
   color: #FE9A2E;
   text-decoration: none; }
+.display-5{
+  font-size: 20px;
+
+}
 
 .mix {
   background-color: #F7BE81; }
@@ -256,9 +269,33 @@
   color: rgba(255, 255, 255, 0.7); }
 
   .bg-primary {
-    background-color: #FE9A2E !important;
+    background-color: #FE9A2E !important;}
 
-}
+  .dropdown-menu{
+    background-color: #FE9A2E !important;
+    color: #fff !important;
+    font-size: 20px !important;}
+
+  .nav-item{
+   color: #fff !important;
+   font-size: 20px !important;
+   font-color:#fff !important;}
+
+  .nav-link{
+  color:black !important;}
+
+  .nav-link:hover{
+    color:#F7BE81 !important;}
+
+  .list{
+    font-size: 30px; }
+    
+ #movin{
+ text-align: center;
+ font-size: 25px; 
+ }
+
+  
 
 @media (min-width: 768px) {
   .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
