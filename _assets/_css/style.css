@@ -288,13 +288,17 @@
     color:#F7BE81 !important;}
 
   .list{
-    font-size: 30px; }
+    font-size: 20px; 
+    text-align: center;}
     
  #movin{
  text-align: center;
  font-size: 25px; 
  }
-
+#footer1{
+  background: black;
+  color:white;
+}
   
 
 @media (min-width: 768px) {
@@ -323,3 +327,12 @@
   vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */
+
+.frontside{
+  border: black solid 4px;
+  border-radius: 8px;
+}
+.backside{
+  border: black solid 4px;
+  border-radius: 8px;
+}

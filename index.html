@@ -96,7 +96,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSite" >
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#empresa" class="nav-link">Empresa</a></li>
+                        <li class="nav-item"><a href="#sobrenos" class="nav-link">Sobre Nós</a></li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Produtos</a>
                             <div class="dropdown-menu">
@@ -109,7 +109,7 @@
                             </div>
                         </li>
                         <li class="nav-item"><a href="#assTec" class="nav-link">Assistência</a></li>
-                        <li class="nav-item"><a href="#faleConosco" class="nav-link">Fale Conosco</a></li>
+                        <li class="nav-item"><a href="#faleConosco" class="nav-link">Atendimento</a></li>
                     </ul>
     <!--                <form action="" class="form-inline">-->
     <!--                    <input class="form-control ml-5 mr-2" type="search" placeholder="Buscar...">-->
@@ -256,7 +256,7 @@
                                     
                                     <!-- Primeiro Card PACK 380 TR -->
                                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="image-flip" ontouchstart="this.classList.toggle('slip');">
                                             <div class="mainflip">
                                                 <div class="frontside">
                                                     <div class="card">
@@ -1154,7 +1154,7 @@
             <!-- INICIO DA LINHA DE BOAS VINDAS -->
             <div class="row justify-content-center">
                 <!-- TEXTO DE BOAS VINDAS  -->
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12 text-center" id="sobrenos">
                     <hr>
                     <h1 class="display-3 mb-2 mt-xs-3 b tam-texto-1"><i class="fas fa-tape text-dark"></i>SannyPack Embalagens</h1>
                     <h3 class="display-5 mb-5 text-muted tam-texto-2">
@@ -1332,7 +1332,7 @@
                                 <div class="col-sm-12">
                                     <label for="iptTipoAssis">Tipo de serviço</label>
                                     <select class="form-control" name="tipoAssis" id="iptTipoAssis">
-                                        <option value="-Selecione-">-Selecione-</option>
+                                        <option value="-Selecione-"><b><i>Escolha uma de nossas opções</i></b></option>
                                         <option value="Visita Técnica">Visita Técnica</option>
                                         <option value="Cotação de Peças">Cotação de Peças</option>
                                         <option value="Envio de Equipamento para Manutenção">Envio de Equipamento para Manutenção</option>
@@ -1491,29 +1491,30 @@
         <div class="jumbotron-fluid">
             <footer class="footer-bs">
                 <div class="row">
-                    <div class="col-md-6 footer-brand animated fadeInLeft">
-                        <h2>SANNYPACK</h2>
+                    <div class="col-md-6 footer-brand animated fadeInLeft" >
+                        <h2 id="movin">SANNYPACK</h2>
                         <p>
-                            Rua Olympia Baddini Rocha, nº 35
+                            <i class="fas fa-home mr-3"></i>Rua Olympia Baddini Rocha, nº 35
                             Jardim Prestes de Barros, Sorocaba - SP
                             CEP 18021-180.
                         </p>
                         <p>
-                            Telefone para contato:
-                            (15) 3042-0793
-                        </p>
-                        <p>© 2018 SannyPack Embalagens, Todos os direitos reservados</p>
+                            <i class="fas fa-phone-square mr-3"></i>Telefone para contato:
+                            (15) 3042-0793.
+                        </p><br>
+
+                        <p style="text-align:center; margin:-10px auto; padding: 0; font-size: 20px; color: whitesmoke;">© 2018 SannyPack Embalagens LTDA - ME, Todos os direitos reservados</p>
                     </div>
 
                     <div class="col-md-3 footer-nav animated fadeInUp">
                         <h4 id="movin"> MENU </h4>
                         <div class="col-sm-6">
                             <ul class="list">
-                                <li><a href="#"><i class="fas fa-h-square mr-3"></i></a></li>
-                                <li><a href="#empresa"><i class="fas fa-briefcase mr-3"></i></a></li>
-                                <li><a href="#produtos"><i class="fas fa-truck-loading mr-3"></i></a></li>
-                                <li><a href="#assTec"><i class="fas fa-hands-helping mr-3"></i></a></li>
-                                <li><a href="#faleConosco"><i class="fas fa-phone-square mr-3"></i></a></li>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#sobrenos">EMPRESA</a></li>
+                                <li><a href="#produtos">PRODUTOS</a></li>
+                                <li><a href="#assTec">ASSISTÊNCIA</a></li>
+                                <li><a href="#faleConosco"></i>CONTATO</a></li>
                             </ul>
                         </div>
                     </div> 
@@ -1521,10 +1522,10 @@
                         <h4 id="movin"> COMUNICAÇÃO</h4>
                         <div class="col-sm-6">
                             <ul class="list">
-                                <li><a href="#"><i class="fab fa-whatsapp-square mr-3"></i></a></li>
-                                <li><a href="#empresa"><i class="fab fa-facebook-square mr-3"></i></a></li>
-                                <li><a href="#produtos"><i class="fas fa-envelope-open mr-3"></i></a></li>
-                                <li><a href="#assTec"><i class="fas fa-phone-square mr-3"></i></a></li>          
+                                <li><a href="#"></i>WHATSAPP</a></li>
+                                <li><a href="#empresa"></i>FACEBOOK</a></li>
+                                <li><a href="#produtos"></i>EMAIL</a></li>
+                                <li><a href="#assTec"></i>TELEFONE</a></li>          
                             </ul>
                         </div>
                     </div>                
